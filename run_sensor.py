@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 async def main():
 
-    xmpp_jid = "agent125@xmmp.jp"
+    xmpp_jid = "agent125@xmpp.jp"
     xmpp_password = "pass1234"
 
     agent = SensorAgent(xmpp_jid, xmpp_password)
